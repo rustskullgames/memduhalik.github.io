@@ -1,5 +1,10 @@
-const button = document.getElementById("myButton");
+const button1 = document.getElementById("myButton");
+const button2 = document.getElementById("myButton2");
 
-button.addEventListener("click", function () {
-    alert("Butona bastın Diğerine De Bas!");
+button1.addEventListener("click", function () {
+    alert("1. butona bastın!");
+});
+
+button2.addEventListener("click", function () {
+    alert("2. butona bastın!");
 });
