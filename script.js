@@ -1,0 +1,1 @@
+alert("Siteye hoş geldin!");
