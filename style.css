@@ -6,6 +6,17 @@
     padding-top: 40px;
 }
 
+.box {
+    background-color: rgba(0, 0, 0, 0.7); /* yarı saydam siyah */
+    padding: 20px 40px;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+h1 {
+    color: orange;
+}
+
 
 h2 {
     text-align: center;
