@@ -1,10 +1,6 @@
-const button1 = document.getElementById("myButton");
-const button2 = document.getElementById("myButton2");
+const colorBtn = document.getElementById("colorBtn");
 
-button1.addEventListener("click", function () {
-    alert("1. butona bastın!");
+colorBtn.addEventListener("click", function () {
+    document.body.style.backgroundColor = "#222";
 });
 
-button2.addEventListener("click", function () {
-    alert("2. butona bastın!");
-});
