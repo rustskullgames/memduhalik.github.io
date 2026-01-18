@@ -48,9 +48,9 @@ button {
     font-weight: 900;
     cursor: pointer;
     transition: 0.5s
-        }
+}
 button:hover {
     scale: 1.1px;
     rotate: 1deg;
-    }
+}
 
