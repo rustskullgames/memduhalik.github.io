@@ -1,7 +1,5 @@
-
-const colorBtn = document.getElementById("koyu");
+const colorBtn = document.getElementById("colorBtn");
 
 colorBtn.addEventListener("click", function () {
-    document.body.style.backgroundColor = "black";
+    document.body.style.backgroundColor = "#222";
 });
-
