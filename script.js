@@ -1,6 +1,6 @@
-const colorBtn = document.getElementById("colorBtn");
+const colorBtn = document.getElementById("aydinlik");
 
 colorBtn.addEventListener("click", function () {
-    document.body.style.backgroundColor = "#222";
+    document.body.style.backgroundColor = "#FF";
 });
 
