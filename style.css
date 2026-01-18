@@ -51,6 +51,6 @@ button {
         }
 button:hover {
     scale 1.1;
-    rotate: 1deg
+    rotate: 1deg;
     }
 
