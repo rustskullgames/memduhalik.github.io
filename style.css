@@ -39,14 +39,18 @@ body {
 }
 
 button {
-    padding: 15px 30px;
-    font-size: 18px;
-    background-color: red;
-    border: none;
-    border-radius: 8px;
+    background-color: black;
+    color: wheat;
+    border: 0;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 900;
     cursor: pointer;
-}
-
+    transition: 0.5s
+        }
 button:hover {
-    background-color: orange;
-}
+    scale 1.1;
+    rotate: 1deg
+    }
+
