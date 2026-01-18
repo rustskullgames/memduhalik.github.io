@@ -25,7 +25,7 @@ body {
     margin-top: 100px;
 }
 
-button1 {
+#button1 {
     background-color: black;
     color: wheat;
     border: 3px solid wheat;
@@ -36,7 +36,7 @@ button1 {
     cursor: pointer;
     transition: 0.5s
 }
-button1:hover {
+#button1:hover {
     scale: 1.1;
     rotate: 5deg;
     color: black;
@@ -44,7 +44,7 @@ button1:hover {
     border: 3px solid black;
 }
 
-button2 {
+#button2 {
     background-color: green;
     color: yellow;
     border: 3px solid yellow;
@@ -55,7 +55,7 @@ button2 {
     cursor: pointer;
     transition: 0.5s
 }
-button2:hover {
+#button2:hover {
     scale: 1.1;
     rotate: 5deg;
     color: green;
@@ -63,7 +63,7 @@ button2:hover {
     border: 3px solid green;
 }
 
-button2 {
+#button3 {
     background-color: red;
     color: blue;
     border: 3px solid blue;
@@ -74,7 +74,7 @@ button2 {
     cursor: pointer;
     transition: 0.5s
 }
-button2:hover {
+#button3:hover {
     scale: 1.1;
     rotate: 5deg;
     color: green;
