@@ -1,44 +1,11 @@
-.container {
-    height: 100vh;
-    display: flex;
-    justify-content: center;    /* yatay ortala */
-    align-items: flex-start;    /* yukarı */
-    padding-top: 40px;
-}
-
-.box {
-    background-color: rgba(0,0,0,0.7);
-    padding: 25px 50px;
-    border-radius: 14px;
-    box-shadow: 0 0 20px black;
-}
-
-h1 {
-    color: orange;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: bold;
-    font-size: 48px;
-    letter-spacing: 4px;
-    -webkit-text-stroke: 2px black;
-}
-
-p {
-    font-style: italic;
-}
-
-h2 {
-    text-align: center;
-        font-weight: 700;
-    font-style: italic;
-}
 body {
-    background: linear-gradient (to right, red, dark-red);
+    background: linear-gradient(to right, darkred, black);
     color: black;
     text-align: center;
     margin-top: 100px;
 }
 
-button {
+button1 {
     background-color: black;
     color: wheat;
     border: 3px solid wheat;
@@ -49,11 +16,49 @@ button {
     cursor: pointer;
     transition: 0.5s
 }
-button:hover {
+button1:hover {
     scale: 1.1;
-    rotate: 1deg;
+    rotate: 5deg;
     color: black;
     background-color: wheat;
     border: 3px solid black;
+}
+
+button2 {
+    background-color: green;
+    color: yellow;
+    border: 3px solid yellow;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.5s
+}
+button2:hover {
+    scale: 1.1;
+    rotate: 5deg;
+    color: green;
+    background-color: yellow;
+    border: 3px solid green;
+}
+
+button2 {
+    background-color: red;
+    color: blue;
+    border: 3px solid blue;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.5s
+}
+button2:hover {
+    scale: 1.1;
+    rotate: 5deg;
+    color: green;
+    background-color: blue;
+    border: 3px solid red;
 }
 
