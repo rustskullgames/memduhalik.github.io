@@ -1,3 +1,23 @@
+#title{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 60px;
+    letter-spacing: 5px;
+    -webkit-text-stroke: 3px solid orange;
+    font-weight: 900;
+    font-style: italic;
+}
+
+#description1{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+    -webkit-text-stroke: 3px solid orange;
+    font-weight: 900;
+    font-style: italic;
+}
+
 body {
     background: linear-gradient(to right, darkred, black);
     color: black;
