@@ -41,7 +41,7 @@ body {
 button {
     background-color: black;
     color: wheat;
-    border: 0;
+    border: 3px solid wheat;
     padding: 20px;
     border-radius: 10px;
     font-size: 15px;
@@ -51,8 +51,9 @@ button {
 }
 button:hover {
     scale: 1.1;
+    rotate: 1deg;
     color: black;
     background-color: wheat;
-    rotate: 1deg;
+    border: 3px solid black;
 }
 
