@@ -1,3 +1,15 @@
+#gameImage{
+    scale: 1.2;
+    filter:drop-shadow(0 10px 15px black);
+    cursor:pointer;
+    transition: 0.5s;
+}
+
+#gameImage:hover {
+    scale: 1;
+    filter:drop-shadow(0 5px 5px black);
+}
+
 #title{
     color: black;
     font-family: 'Quantico', sans-serif;
