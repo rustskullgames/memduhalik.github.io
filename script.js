@@ -1,5 +1,3 @@
-const colorBtn = document.getElementById("colorBtn");
-
-colorBtn.addEventListener("click", function () {
-    document.body.style.backgroundColor = "#222";
-});
+  document.getElementById("gameImage").addEventListener("click", function () {
+    window.location.href = "game.html";
+  });
