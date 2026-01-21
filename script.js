@@ -1,3 +1,1 @@
-document.getElementById("logo").addEventListener("click", function () {
-  window.location.href = "game.html";
-  });
+console.log("JS ÇALIŞIYOR");
