@@ -1,116 +1,62 @@
-#gameImage{
-    scale: 1.2;
-    filter:drop-shadow(0 10px 15px black);
-    cursor:pointer;
-    width: 300px;
-    transition: 0.5s;
-}
-
-#gameImage:hover {
-    scale: 1;
-    filter:drop-shadow(0 5px 5px black);
-}
-
-#title{
-    color: black;
-    font-family: 'Quantico', sans-serif;
-    font-size: 60px;
-    letter-spacing: 5px;
-    -webkit-text-stroke: 1.5px orange;
-    font-weight: 900;
-    font-style: italic;
-}
-
-#description1{
-    color: black;
-    font-family: 'Quantico', sans-serif;
-    font-size: 40px;
-    letter-spacing: 5px;
-    -webkit-text-stroke: 1.5px orange;
-    font-weight: 900;
-    font-style: italic;
-}
-
 body {
-    background: linear-gradient(to right, darkred, black);
-    color: black;
-    text-align: center;
-    margin-top: 100px;
+  margin: 0;
+  background: #0e0e0e;
+  color: white;
+  font-family: 'Goldman', sans-serif;
 }
 
-#button1 {
-    background-color: black;
-    color: orange;
-    border: 3px solid orange;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 15px;
-    font-weight: 900;
-    cursor: pointer;
-    transition: 0.5s
-}
-#button1:hover {
-    scale: 1.1;
-    rotate: 5deg;
-    color: black;
-    background-color: orange;
-    border: 3px solid black;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
 }
 
-#button1:focus {
-    background-color: black;
-    color: orange;
-    border: 3px solid orange;
-    rotate: 360deg;
-}
-#button2 {
-    background-color: green;
-    color: yellow;
-    border: 3px solid yellow;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 15px;
-    font-weight: 900;
-    cursor: pointer;
-    transition: 0.5s
-}
-#button2:hover {
-    scale: 1.1;
-    rotate: 5deg;
-    color: green;
-    background-color: yellow;
-    border: 3px solid green;
+.logo {
+  font-family: 'Quantico', sans-serif;
+  font-size: 28px;
 }
 
-#button2:focus {
-    background-color: green;
-    color: yellow;
-    border: 3px solid yellow;
-    rotate: 360deg;
+nav a {
+  margin-left: 25px;
+  color: white;
+  text-decoration: none;
 }
 
-#button3 {
-    background-color: red;
-    color: blue;
-    border: 3px solid blue;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 15px;
-    font-weight: 900;
-    cursor: pointer;
-    transition: 0.5s
-}
-#button3:hover {
-    scale: 1.1;
-    rotate: 5deg;
-    color: red;
-    background-color: blue;
-    border: 3px solid red;
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
 }
 
-#button3:focus {
-    background-color: red;
-    color: blue;
-    border: 3px solid blue;
-    rotate: 360deg;
+.cta {
+  font-family: 'Bebas Neue', sans-serif;
+  padding: 12px 30px;
+  background: transparent;
+  border: 2px solid orange;
+  color: orange;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cta:hover {
+  background: orange;
+  color: black;
+}
+
+.games {
+  display: flex;
+  gap: 30px;
+  padding: 80px;
+}
+
+.game-card {
+  width: 250px;
+  transition: 0.3s;
+}
+
+.game-card:hover {
+  transform: translateY(-10px);
 }
