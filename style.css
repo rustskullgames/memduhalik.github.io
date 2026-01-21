@@ -1,62 +1,78 @@
-body {
-  margin: 0;
-  background: #0e0e0e;
-  color: white;
-  font-family: 'Goldman', sans-serif;
-}
+ /* =====================
+       TEMA DEĞİŞKENLERİ
+    ====================== */
+    :root {
+      --bg: #0b0b0b;
+      --text: #ffffff;
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 60px;
-}
+      /* Varsayılan tema: SARI */
+      --accent: #ffd000;
+      --accent-soft: rgba(255, 208, 0, 0.15);
+      --accent-border: #ffd000;
+    }
 
-.logo {
-  font-family: 'Quantico', sans-serif;
-  font-size: 28px;
-}
+    /* =====================
+       GENEL STİL
+    ====================== */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
 
-nav a {
-  margin-left: 25px;
-  color: white;
-  text-decoration: none;
-}
+    header {
+      padding: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
-.hero {
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 80px;
-}
+    h1 {
+      color: var(--accent);
+      margin: 0;
+    }
 
-.cta {
-  font-family: 'Bebas Neue', sans-serif;
-  padding: 12px 30px;
-  background: transparent;
-  border: 2px solid orange;
-  color: orange;
-  cursor: pointer;
-  transition: 0.3s;
-}
+    main {
+      padding: 60px 30px;
+    }
 
-.cta:hover {
-  background: orange;
-  color: black;
-}
+    .box {
+      border: 2px solid var(--accent-border);
+      padding: 30px;
+      margin-bottom: 30px;
+      background: var(--accent-soft);
+    }
 
-.games {
-  display: flex;
-  gap: 30px;
-  padding: 80px;
-}
+    button {
+      background: transparent;
+      border: 2px solid var(--accent-border);
+      color: var(--accent);
+      padding: 12px 24px;
+      cursor: pointer;
+      transition: 0.3s;
+      margin-right: 10px;
+    }
 
-.game-card {
-  width: 250px;
-  transition: 0.3s;
-}
+    button:hover {
+      background: var(--accent);
+      color: black;
+    }
 
-.game-card:hover {
-  transform: translateY(-10px);
-}
+    /* =====================
+       TEMA PANELİ
+    ====================== */
+    .theme-panel {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #111;
+      padding: 15px;
+      border: 1px solid var(--accent-border);
+    }
+
+    .theme-panel p {
+      margin: 0 0 10px 0;
+      font-size: 14px;
+      color: var(--accent);
+    }
