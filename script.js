@@ -1,1 +1,3 @@
-console.log("JS ÇALIŞIYOR");
+document.getElementById("playBtn").onclick = () => {
+  window.location.href = "game.html";
+};
