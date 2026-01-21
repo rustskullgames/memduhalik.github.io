@@ -1,19 +1,8 @@
-#gameImage2{
-    scale: 1.2;
-    filter:drop-shadow(0 10px 15px black);
-    cursor:pointer;
-    transition: 0.5s;
-}
-
-#gameImage2:hover {
-    scale: 1;
-    filter:drop-shadow(0 5px 5px black);
-}
-
 #gameImage{
     scale: 1.2;
     filter:drop-shadow(0 10px 15px black);
     cursor:pointer;
+    width: 300px;
     transition: 0.5s;
 }
 
